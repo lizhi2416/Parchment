@@ -18,6 +18,11 @@ open class PagingViewController:
     PageViewControllerDelegate {
     // MARK: Public Properties
 
+    public var customScrollViewClass: UIScrollView.Type {
+        get { return options.customScrollViewClass }
+        set { options.customScrollViewClass = newValue }
+    }
+    
     /// The size for each of the menu items. _Default:
     /// .sizeToFit(minWidth: 150, height: 40)_
     public var menuItemSize: PagingMenuItemSize {

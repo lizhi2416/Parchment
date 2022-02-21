@@ -33,7 +33,7 @@ public final class PageViewController: UIViewController {
     /// added. Changing the properties on this scroll view might cause
     /// undefined behaviour.
     public private(set) lazy var scrollView: UIScrollView = {
-        let scrollView = UIScrollView()
+        let scrollView = options.customScrollViewClass.init()
         scrollView.isPagingEnabled = true
         scrollView.autoresizingMask = [
             .flexibleTopMargin,

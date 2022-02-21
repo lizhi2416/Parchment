@@ -1,6 +1,10 @@
 import UIKit
 
 public struct PagingOptions {
+    
+    
+    public var customScrollViewClass: UIScrollView.Type
+    
     /// The size for each of the menu items. _Default:
     /// .sizeToFit(minWidth: 150, height: 40)_
     public var menuItemSize: PagingMenuItemSize
@@ -146,6 +150,7 @@ public struct PagingOptions {
         indicatorClass = PagingIndicatorView.self
         borderClass = PagingBorderView.self
         menuLayoutClass = PagingCollectionViewLayout.self
+        customScrollViewClass = UIScrollView.self
 
         indicatorOptions = .visible(
             height: 4,

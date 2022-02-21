@@ -20,7 +20,7 @@ class BasicViewController: UIViewController {
         ]
 
         let pagingViewController = PagingViewController(viewControllers: viewControllers)
-
+        pagingViewController.customScrollViewClass = PopGestureScrollView.self
         // Make sure you add the PagingViewController as a child view
         // controller and constrain it to the edges of the view.
         addChild(pagingViewController)

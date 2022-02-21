@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3423546627C3B3C8006F8300 /* PopGestureScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423546527C3B3C8006F8300 /* PopGestureScrollView.swift */; };
 		3E2AAD201CA81EA20044AAA5 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AAD1F1CA81EA20044AAA5 /* ContentViewController.swift */; };
 		3E2AAD281CA831AB0044AAA5 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AAD271CA831AB0044AAA5 /* UIView+constraints.swift */; };
 		3E2AAD2C1CA869B50044AAA5 /* PagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AAD2B1CA869B50044AAA5 /* PagingItem.swift */; };
@@ -203,6 +204,7 @@
 
 /* Begin PBXFileReference section */
 		183AA9F1235B7742003A6408 /* MultipleCellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleCellsViewController.swift; sourceTree = "<group>"; };
+		3423546527C3B3C8006F8300 /* PopGestureScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopGestureScrollView.swift; sourceTree = "<group>"; };
 		3E2AAD091CA81D490044AAA5 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		3E2AAD1F1CA81EA20044AAA5 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		3E2AAD231CA823DA0044AAA5 /* CalendarPagingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPagingCell.swift; sourceTree = "<group>"; };
@@ -606,6 +608,7 @@
 			isa = PBXGroup;
 			children = (
 				3EA04A5E1C53BFF40054E5E0 /* BasicViewController.swift */,
+				3423546527C3B3C8006F8300 /* PopGestureScrollView.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -1081,6 +1084,7 @@
 				955453C82413DB7900923BC8 /* UIView+constraints.swift in Sources */,
 				955453ED2415165800923BC8 /* HeaderViewController.swift in Sources */,
 				955453CF2413DC6900923BC8 /* UIColor+interpolation.swift in Sources */,
+				3423546627C3B3C8006F8300 /* PopGestureScrollView.swift in Sources */,
 				955453F32415181800923BC8 /* StoryboardViewController.swift in Sources */,
 				955453D12413DCB700923BC8 /* CalendarPagingCell.swift in Sources */,
 				955453D82413E11300923BC8 /* UnsplashViewController.swift in Sources */,
